@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main container-fluid bg-dark">
+
+    <!-- SIDEBAR SECTION -->
+    <div class="row">
+      <div class="sidebar col-lg-2">
+        <div class="d-flex flex-column">
+          <div class="row mt-3 mb-2">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/view-dashboard.png" width="50" height="50" class="mx-3"></a>
+            </div>
+            <div class="col-sm-10 align-self-center ps-4">
+              <h2 class="ms-1">Dashboard</h2>
+            </div>
+          </div>
+          <div class="row mt-5 align-items-center">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/home.png" width="30" height="30" class="mx-4 mt-1" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Home</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/account-outline.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Profile</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/message-settings.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Messages</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/history.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">History</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/format-list-checks.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Tasks</h4>
+            </div>
+          </div>
+          <div class="row mt-4 mb-3">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/account-multiple.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Communities</h4>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/cog.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Settings</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/help-box.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Support</h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-2 p-0">
+              <a href="#"><img src="img/shield-check.png" width="30" height="30" class="mx-4" alt="Logo"></a>
+            </div>
+            <div class="col-sm-10 ps-4">
+              <h4 class="mb-0 ms-1">Privacy</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- HEADER SECTION -->
+      <div class="col-lg-10">
+        <div class="row">
+          <!-- ROW ONE (SEARCH BAR + ICON)-->
+          <div class="header-one col-lg-8">
+            <a href="#"><img src="img/magnify.png" width="30" height="30" alt="Logo" style="margin-left: 50px;"></a>
+            <input class="search-bar mt-4" type="text" name="search-bar" id="search-bar" size="100">
+          </div>
+          <div class="header-one col-lg-4 d-flex justify-content-center">
+            <a href="#"><img class="img-bell mt-4" src="img/bell-ring.png" width="30" height="30" alt="Logo" style="margin-right: 15px;"></a>
+            <a href="#"><img class="img-zen mt-2" src="img/zen.png" width="60" height="60" alt="Logo"></a>
+            <h5 class="header-name mt-4" style="margin-left: 15px;">John Ta</h5>
+          </div>
+          <!-- ROW TWO (WELCOME + BUTTONS)-->
+          <div class="header-two col-lg-1">
+            <a href="#"><img class="img-zen" src="img/zen.png" width="90" height="90" alt="Logo" style="margin: 0 0 40px 35px;"></a>
+          </div>
+          <div class="header-two col-lg-7">
+            <div class="row d-flex align-items-end" style="height: 5vh">
+              <h6>Welcome,</h6>
+            </div>
+            <div class="row">
+              <h3>John Ta (@johnvta)</h3>
+            </div>
+          </div>
+          <div class="header-two col-lg-4 d-flex align-items-center">
+            <button class="header-button">New</button>
+            <button class="header-button">Upload</button>
+            <button class="header-button">Share</button>
+          </div>
+        </div>
+
+        <!-- PROJECT CARDS SECTION-->
+        <div class="container-fluid px-5">
+          <div class="row mt-4">
+            <div class="col-lg-9">
+              <h4 class="mx-4 mb-3"><b>Projects</b></h4>
+            </div>
+            <div class="col-lg-3">
+              <h4 class="mx-4"><b>Annoucements</b></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="row row-cols-2">
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>A Cat Photo App</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>A Cafe Menu</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>Registration Form</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>Nutrition Facts</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>Tribute Page</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-projects">
+                    <div class="body-card mx-auto">
+                      <h4><b>Lyft Home Page</b></h4>
+                      <p class="body-card mt-0 mb-5">asa adasd ad a das rterte terw etwer wer wre wqer wer werq wer wer g  g fdfs gdfsg sdfg dsg dgd gds g dg g sdg dfg aaaa a   aaaaa aaaaaaaaa aaaaaaa aa  aa a a a a  a</p>
+                    </div>
+                    <div class="align-self-end mt-0 mb-3">
+                      <a href="#"><img class="projects-button" src="img/github.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/star.png" width="40" height="40" alt="Logo" style="margin-right: 25px;"></a>
+                      <a href="#"><img class="projects-button" src="img/plus-thick.png" width="40" height="40" alt="Logo" style="margin-right: 35px;"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ANNOUCEMENTS CARD SECTION -->
+            <div class="col-lg-3 d-flex flex-column" style="padding-left: 0; padding-right: 0">
+              <div class="items">
+                <div class="card card-annoucements d-flex flex-column">
+                  <div class="row row-annoucements">
+                    <div class="col-sm-12 pt-2">
+                      <h6 class="mb-0"><b>Site Maintenance</b></h6>
+                    </div>
+                    <div class="col-sm-12">
+                      <p class="annoucements-text pb-2">qwiueqwue asd asd qweqkljgfd asjdoa fduugdunasd a</p><hr style="width:90%">
+                    </div>
+                  </div>
+                  <div class="row row-annoucements">
+                    <div class="col-sm-12 pt-2">
+                      <h6 class="mb-0"><b>Hiring</b></h6>
+                    </div>
+                    <div class="col-sm-12">
+                      <p class="annoucements-text pb-2">qweqwehwqehiq qwiueqwue asd ad qweqkljgfd asjdoa fduugunasd a asdasd asa dq ewqe w qew qeqwe</p><hr style="width:90%">
+                    </div>
+                  </div>
+                  <div class="row row-annoucements">
+                    <div class="col-sm-12">
+                      <h6 class="mb-0 pt-2"><b>Updated Privacy Policy</b></h6>
+                    </div>
+                    <div class="col-sm-12">
+                      <p class="annoucements-text">qwiueqwue asd asd qweqkljgfd asjd fduugdunasd aasadad asdsa as d</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- TRENDING CARD SECTION -->
+              <div class="items">
+                <h4 class="mx-3 mb-3"><b>Trending</b></h4>
+                <div class="card card-trending d-flex flex-column justify-content-evenly">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="trending-img" src="img/download.jfif" width="50" height="50" alt="Logo">
+                    </div>
+                    <div class="col-sm-8">
+                      <h6>@luffy<br>Pirate King</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="trending-img" src="img/zoro.jfif" width="50" height="50" alt="Logo">
+                    </div>
+                    <div class="col-sm-8">
+                      <h6>@zoro<br>Green Hair Demon</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="trending-img" src="img/sanji.jfif" width="50" height="50" alt="Logo">
+                    </div>
+                    <div class="col-sm-8">
+                      <h6>@sanji<br>Perv God</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="trending-img" src="img/images.jfif" width="50" height="50" alt="Logo">
+                    </div>
+                    <div class="col-sm-8">
+                      <h6>@chopper<br>Fluffy Fuck</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

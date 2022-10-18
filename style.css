@@ -1,0 +1,93 @@
+:root {
+  --color-blue: #6495ED;
+  --auto: auto;
+}
+
+/** SIDEBAR **/
+.sidebar {
+  background-color: var(--color-blue);
+  height: var(--auto);
+}
+
+
+/** HEADER **/
+.header-one {
+  height: 8vh;
+  background-color: black;
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 0;
+  margin-left: 15px;
+}
+
+.header-two {
+  height: 11vh;
+  background-color: black;
+}
+
+.header-button {
+  border-radius: 20px;
+  background-color: var(--color-blue);
+  padding: 8px 40px;
+  font-family: ProximaNova, sans-serif;
+  font-weight: 550;
+  color: white;
+  margin: 0 20px;
+  border: none;
+}
+
+
+/** PROJECT CARDS **/
+.card-projects {
+  background-color: #F8F8FF;
+  color: black;
+  width: 90%;
+  height: 90%;
+  margin: var(--auto);
+  justify-content: center;
+  border-left: 10px solid var(--color-blue);
+  box-shadow: 0px 15px 10px -15px  rgb(185, 178, 178);
+}
+
+.body-card {
+  width: 80%;
+  margin-top: 50px;
+}
+
+/** ANNOUCEMENTS/TRENDING CARD **/
+.card-annoucements, .card-trending {
+  background-color: #F8F8FF;
+  color: black;
+  width: 90%;
+  height: 90%;
+  margin: var(--auto);
+  justify-content: center;
+    box-shadow: 0px 15px 10px -15px  rgb(185, 178, 178);
+}
+
+.items {
+  width: 90%;
+  height: 50%;
+  margin: var(--auto);
+  margin-bottom: 33px;
+}
+
+.projects-button {
+  margin-bottom: 25px;
+}
+
+.trending-img {
+  border-radius: 50%;
+  float: right;
+}
+
+.annoucements-text {
+  font-size: 15px;
+}
+
+.row-annoucements {
+  margin-left: 15px;
+}
